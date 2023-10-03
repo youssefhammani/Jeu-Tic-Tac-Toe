@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="tic">
+        <h1>Tic Tac Toe</h1>
+        <!-- <div id="player-info"></div> -->
+        <div id="board"></div>
+        <button id="reset">Reset</button>
+
+    </div>
+    <div class="vh-100 w-100 d-flex align-items-center tac" id="mainBgn">
+        <div class="formContainer">
+            <div class="">
+                <img src="/images/frinds.jpeg" alt="Company Logo">
+            </div>
+            <!-- <form id="profileForm"> -->
+            <div>
+                <span class="inputLogo"><i class="fas fa-user"></i></span><input type="text"
+                    class="form-control rounded-pill" name="Username1" placeholder="Player name 1" id="player1">
+            </div>
+            <div class="my-2">
+                <span class="inputLogo"></span><input type="text" class="form-control rounded-pill" name="Username1"
+                    placeholder="Player name 2" id="player2">
+            </div>
+            <button class="btn btn-accent rounded-pill w-100 my-2" id="start-game">Start Playing</button>
+            <label for="computer">Jouer contre l'ordinateur:</label>
+            <input type="checkbox" id="computer">
+            <!-- </form> -->
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

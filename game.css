@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px !important;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 4px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    width: 60%;
+    background: rgb(148 0 255 / 63%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(194 0 255);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgb(229 0 255);
+}
+
+#bg-img {
+    background-image: url("../images/123.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.cell {
+    width: 3vh;
+    height: 3vh;
+    border: 2px solid #ffffff;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.reset {
+    /* margin-top: 20px; */
+    /* margin-left: 90px; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#reset {
+    text-align: center !important;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.player{
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#player-info {
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.player-info p {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.score {
+    font-weight: bold;
+    color: #3498db;
+    margin-left: -45px;
+}
+
+.game-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #3498db;
+    text-shadow: 2px 2px 4px #ccc;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+}
